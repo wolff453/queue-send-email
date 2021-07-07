@@ -1,0 +1,26 @@
+{
+  "name": "filas-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:queue": "nodemon src/process/queueProcess.js",
+    "dev:start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bull": "^3.22.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.6",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.2"
+  }
+}
