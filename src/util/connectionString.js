@@ -5,7 +5,7 @@ export default knex({
     connection: {
       host : '127.0.0.1',
       user : 'root',
-      password : '07142155',
+      password : '071jhgwbgwhi',
       database : 'construtor'
     }
   });
